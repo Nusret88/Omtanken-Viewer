@@ -1,6 +1,8 @@
 import './App.css';
 import React, {useState} from 'react';
-import SlideView from './Components/SlideView';
+import Extern from './Pages/Extern';
+import Intern from './Pages/Intern'
+
 
 
 //To Do
@@ -17,7 +19,8 @@ function App() {
 return (
     <div className="App">
       {/* Clock and date here */}
-      <SlideView />
+      <Extern />
+      {/* <Intern /> */}
       {/* Current patient number here */}
     </div>
   );
