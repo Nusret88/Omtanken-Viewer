@@ -12,7 +12,8 @@ const SlideView = () => {
 	// Slide interval (1000 = 1 sec)
 	const [time, setTime] = useState([2000, 3000, 6000]);
 	return (
-		<Carousel className="SlideShow" controls={false} indicators={false} pause={false}>
+		<div className="SlideShow">
+		<Carousel controls={false} indicators={false} pause={false}>
 			{slide.map((item, idx) => {
 				return (
 					<Carousel.Item interval={time[idx]}>
@@ -21,6 +22,7 @@ const SlideView = () => {
 				);
 			})}
 		</Carousel>
+		</div>
 	);
 };
 

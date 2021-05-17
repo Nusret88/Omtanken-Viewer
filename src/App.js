@@ -18,10 +18,8 @@ import Intern from './Pages/Intern'
 function App() {
 return (
     <div className="App">
-      {/* Clock and date here */}
       {/* <Extern /> */}
       <Intern />
-      {/* Current patient number here */}
     </div>
   );
 }

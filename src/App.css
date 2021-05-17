@@ -20,10 +20,10 @@
 }
 
 .Presence-Header thead{
-  background-color: #61BB4C;
+  background-color: #30aa51;
 }
 .Absence-Header thead{
-  background-color: #E26249;
+  background-color: #c73838;
 }
 
 
@@ -32,7 +32,7 @@
   cursor: none;
 }
 .Extern-Clock {
-  color: #61BB4C;
+  color: #30aa51;
 }
 .Extern-Body {
   width: 100%;
@@ -58,7 +58,7 @@
   cursor: none;
 }
 .Intern-Clock {
-  color: #61BB4C;
+  color: #30aa51;
 }
 .Intern-Body {
   display: flex;
