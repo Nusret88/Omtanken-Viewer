@@ -19,8 +19,8 @@ function App() {
 return (
     <div className="App">
       {/* Clock and date here */}
-      <Extern />
-      {/* <Intern /> */}
+      {/* <Extern /> */}
+      <Intern />
       {/* Current patient number here */}
     </div>
   );

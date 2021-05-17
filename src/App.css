@@ -1,6 +1,6 @@
-.view, .Body {
+.view {
   width: 100%;
-  min-height: 32rem;
+  min-height: 29rem;
 }
 
 .SlideShow {
@@ -8,10 +8,84 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;
+  min-width: 65%;
+  cursor: none;
 }
 
-.Header, .Footer {
+.Logo {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  cursor: none;
+}
+
+.Presence-Header thead{
+  background-color: #61BB4C;
+}
+.Absence-Header thead{
+  background-color: #E26249;
+}
+
+
+/* EXTERN VIEW */
+.Extern {
+  cursor: none;
+}
+.Extern-Clock {
+  color: #61BB4C;
+}
+.Extern-Body {
+  width: 100%;
+  min-height: 29rem;
+}
+
+.Extern-Header {
   display: flex;
   flex-direction: row;
   height: 10%;
+  justify-content: space-between;
+}
+
+.Extern-Footer {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  float: right;
+}
+
+/* INTERN VIEW */
+.Intern {
+  cursor: none;
+}
+.Intern-Clock {
+  color: #61BB4C;
+}
+.Intern-Body {
+  display: flex;
+  width: 100%;
+  min-height: 29rem;
+  flex-direction: row;
+}
+
+.Intern-Header {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  justify-content: space-between;
+}
+
+.Intern-Footer {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  float: right;
+}
+.Intern-Närvaro {
+  display: flex;
+  flex-direction: column;
+  min-width: 35%;
+  cursor: none;
+}
+.Intern-Slide {
+  cursor: none;
 }
