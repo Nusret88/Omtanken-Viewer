@@ -1,14 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Table, Image, Header } from "semantic-ui-react";
 import omtanken from "../Images/omtanken.png";
+import { SlideContext } from "../Context/SlideContext";
 
 export default function PresenceAbsence() {
-	const [presence, setPresence] = useState([
-		"Första personen",
-		"Andra Presonen",
-		"Tredje Personen",
-	]);
-	const [absence, setAbsence] = useState(["Fjärde Personen", "Femte Personen"]);
+	const {presence, setPresence, absence, setAbsence} = useContext(SlideContext);
 	return (
 		<div>
 			<div className="Presence-Header">
@@ -22,12 +18,12 @@ export default function PresenceAbsence() {
 						{presence.map((item, idx) => {
 							return (
 								<Table.Row>
-									<Header as="h2">
+									{/* <Header as="h2">
 										<Image
 											circular
 											src="https://icon-library.com/images/small-user-icon/small-user-icon-19.jpg"
 										/>
-                    </Header>
+                    </Header> */}
 									<Table.Cell>{presence[idx]}</Table.Cell>
 								</Table.Row>
 							);
@@ -47,12 +43,12 @@ export default function PresenceAbsence() {
 						{absence.map((item, idx) => {
 							return (
 								<Table.Row>
-                  <Header as="h2">
+                  {/* <Header as="h2">
 										<Image
 											circular
 											src="https://icon-library.com/images/small-user-icon/small-user-icon-19.jpg"
 										/>
-                    </Header>
+                    </Header> */}
 									<Table.Cell>{absence[idx]}</Table.Cell>
 								</Table.Row>
 							);

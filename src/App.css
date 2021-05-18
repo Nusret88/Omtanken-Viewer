@@ -50,7 +50,8 @@
   display: flex;
   flex-direction: row;
   height: 10%;
-  float: right;
+  float: left;
+  margin-left: 2rem;
 }
 
 /* INTERN VIEW */
@@ -79,6 +80,7 @@
   flex-direction: row;
   height: 10%;
   float: right;
+  margin-right: 2rem;
 }
 .Intern-Närvaro {
   display: flex;

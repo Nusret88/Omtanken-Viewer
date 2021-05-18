@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { SlideProvider } from "./Context/SlideContext";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+	<SlideProvider>
+		<React.StrictMode>
+			<App />
+		</React.StrictMode>
+	</SlideProvider>,
   document.getElementById('root')
 );
 
