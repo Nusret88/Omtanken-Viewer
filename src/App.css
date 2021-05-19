@@ -25,7 +25,26 @@
 .Absence-Header thead{
   background-color: #c73838;
 }
-
+.LabelContent {
+font-size: 14px;
+color: black;
+}
+.LabelContent img {
+  font-size: 14px;
+  color: black;
+  margin-right: 1rem;
+  }
+.PresenceDescription {
+  color: black;
+  font-size: 14px;
+  float: right;
+}
+.AbsenceDescription {
+  color: #c73838;
+  font-size: 14px;
+  float: right;
+  font-weight: bolder;
+}
 
 /* EXTERN VIEW */
 .Extern {
